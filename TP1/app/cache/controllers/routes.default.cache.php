@@ -1,0 +1,2 @@
+<?php
+return array("/main/(index/)?"=>["controller"=>"controllers\\MainController","action"=>"index","parameters"=>[],"name"=>"main.index","cache"=>false,"duration"=>0],"/main/test/(.+?)/"=>["get"=>["controller"=>"controllers\\MainController","action"=>"test","parameters"=>[0],"name"=>"test","cache"=>false,"duration"=>0]],"/main/autre/"=>["controller"=>"controllers\\MainController","action"=>"autre","parameters"=>[],"name"=>"main.autre","cache"=>false,"duration"=>0]);
